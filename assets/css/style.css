@@ -18,3 +18,9 @@ body{
     background-color: darkgreen;
     border:dashed
 }
+.scores_area{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: darkgreen;
+    color: #ffffff;
+}
