@@ -1,5 +1,5 @@
 *{
-    background-color: darkolivegreen;
+    background-color: darkgreen;
     color: #ffffff;
 }
 body{
@@ -11,17 +11,18 @@ body{
 }
 .box{
     width: 45%;
+    padding: 40px 30px;
     position: absolute;
     min-width: 500px;
     border-radius: 20px;
     left: 25%;
-    background-color: darkgreen;
+    background-color: darkolivegreen;
     border:dashed
 }
 .scores_area{
     text-align: center;
     margin-bottom: 50px;
-    background-color: darkgreen;
+    background-color: darkolivegreen;
     color: #ffffff;
 }
 .weapons{
@@ -30,12 +31,15 @@ body{
     display: flex;
     justify-content: space-around;
     width: 90%;
-    background-color: darkgreen;
+    background-color: darkolivegreen;
 }
 .weapons button{
     height: 100px;
+    border: none;
+    font-size: 50px;
     width: 100px;
     border-radius: 50%;
+    outline: none;
     cursor: pointer;
 }
 .choices{
