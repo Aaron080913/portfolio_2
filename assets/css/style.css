@@ -24,3 +24,38 @@ body{
     background-color: darkgreen;
     color: #ffffff;
 }
+.weapons{
+    min-width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: darkgreen;
+}
+.weapons button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.choices{
+    margin-top: 30px;
+    text-align: center;
+}
+#result{
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+    letter-spacing: 1px;
+}
+#user,
+#computer{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer{
+    top: 90%;
+    text-align: center;
+    flex: auto;
+    position: relative;
+}
