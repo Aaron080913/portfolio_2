@@ -10,20 +10,17 @@ body{
     border:dashed
 }
 .box{
-    width: 45%;
-    padding: 40px 30px;
-    position: absolute;
-    min-width: 500px;
+    width: fit-content;
     border-radius: 20px;
-    left: 25%;
     background-color: darkolivegreen;
     border:dashed
 }
 .scores_area{
-    text-align: center;
-    margin-bottom: 50px;
     background-color: darkolivegreen;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Weapons{
     min-width: 250px;
@@ -43,23 +40,40 @@ body{
     cursor: pointer;
     border: dashed;
 }
+p{
+    border:dashed;
+    width: fit-content;
+}
 .choices{
-    margin-top: 30px;
     text-align: center;
+    background-color: darkolivegreen;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 #result{
     width: 180px;
     margin: auto;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 #user,
 #computer{
     font-weight: 400;
     margin-bottom: 10px;
 }
+h2{
+    background-color: darkolivegreen;
+}
+h3{
+    background-color: darkolivegreen;
+}
 footer{
-    top: 80%;
     text-align: center;
-    flex: auto;
     position: relative;
+    background-color: darkolivegreen;
+    border-radius: 10%;
+    border:dashed;
+    margin-top: 20px;
 }
