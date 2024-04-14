@@ -2,6 +2,11 @@
     background-color: darkgreen;
     color: #ffffff;
 }
+header{
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+}
 body{
     height: 100vh;
 }
@@ -10,7 +15,6 @@ body{
     border:dashed
 }
 .box{
-    width: fit-content;
     border-radius: 20px;
     background-color: darkolivegreen;
     border:dashed
@@ -41,7 +45,6 @@ body{
     border: dashed;
 }
 p{
-    border:dashed;
     width: fit-content;
 }
 .choices{
@@ -50,7 +53,7 @@ p{
     border-radius: 25%;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 #result{
     width: 180px;
