@@ -13,6 +13,7 @@ body{
     text-align: center;
     border:dashed;
     border-radius: 8%;
+    background-color: darkgreen;
 }
 .box{
     border-radius: 20px;
@@ -48,6 +49,7 @@ body{
 }
 p{
     width: fit-content;
+    background-color: darkgreen;
 }
 .choices{
     text-align: center;
