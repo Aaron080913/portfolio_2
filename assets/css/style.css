@@ -1,7 +1,3 @@
-*{
-    background-color: darkgreen;
-    color: #ffffff;
-}
 header{
     display: flex;
     justify-content: center;
@@ -10,6 +6,8 @@ header{
 }
 body{
     height: 100vh;
+    background-color: darkgreen;
+    color: #ffffff;
 }
 .name{
     text-align: center;
@@ -45,6 +43,7 @@ body{
     outline: none;
     cursor: pointer;
     border: dashed;
+    background-color: darkgreen;
 }
 p{
     width: fit-content;
@@ -83,5 +82,5 @@ footer{
     margin-top: 20px;
 }
 @media screen and (min-width:768px){
-    
+
 }
