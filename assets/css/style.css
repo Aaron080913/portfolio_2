@@ -6,13 +6,15 @@ header{
     display: flex;
     justify-content: center;
     background-color: darkolivegreen;
+    border-radius: 15%;
 }
 body{
     height: 100vh;
 }
 .name{
     text-align: center;
-    border:dashed
+    border:dashed;
+    border-radius: 8%;
 }
 .box{
     border-radius: 20px;
@@ -79,4 +81,7 @@ footer{
     border-radius: 10%;
     border:dashed;
     margin-top: 20px;
+}
+@media screen and (min-width:768px){
+    
 }
