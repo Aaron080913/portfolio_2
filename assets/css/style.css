@@ -44,6 +44,7 @@ body{
     cursor: pointer;
     border: dashed;
     background-color: darkgreen;
+    color: #ffffff;
 }
 p{
     width: fit-content;
@@ -67,12 +68,6 @@ p{
     font-weight: 400;
     margin-bottom: 10px;
 }
-h2{
-    background-color: darkolivegreen;
-}
-h3{
-    background-color: darkolivegreen;
-}
 footer{
     text-align: center;
     position: relative;
@@ -80,7 +75,4 @@ footer{
     border-radius: 10%;
     border:dashed;
     margin-top: 20px;
-}
-@media screen and (min-width:768px){
-
 }
