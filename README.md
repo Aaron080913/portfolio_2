@@ -61,7 +61,10 @@ The live link can be found here - https://aaron080913.github.io/portfolio_2/
 ## Credits 
 
 Rock paper scissors icons created by Freepik - Flaticon
-Rock Paper Scissors buttons were from font awesome - 
+
+Rock Paper Scissors buttons were from font awesome - https://fontawesome.com/icons
+
+Idea of Rock Paper Scissors code - https://www.codewithrandom.com/2022/11/10/rock-paper-scissors-game-javascript/
 
 
 ### Content 
