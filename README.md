@@ -1,7 +1,7 @@
 
 This Rock Paper scissors game mode is a site in which the user can play against the computer in the classic rock paper scissors format, it hopes that you can play the simple game against the computer. it is for anyone who has some spare time and would like to play a small game of luck against the computer.
 
-![Responsice Mockup]!(https://github.com/Aaron080913/workspace/portfolio_2/assets/images/RESPONSICE.jpeg)
+![Responsice_Mockup](https://github.com/Aaron080913/portfolio_2/blob/main/assets/images/RESPONSICE.jpeg)
 
 ### Existing Features
 
