@@ -27,14 +27,17 @@ function checker(input){
     let computer_choice = choices[num];
     switch(choices_object[input][computer_choice]){
         case 'win':
-            result_ref.innerHTML = "YOU WIN";
+            result_ref.style.cssText = "background-color: darkgreen";
+                        result_ref.innerHTML = "YOU WIN";
             user_score++;
             break;
         case 'lose':
+            result_ref.style.cssText = "background-color: red";
             result_ref.innerHTML = "YOU LOSE";
             computer_score++;
             break;
         default:
+            result_ref.style.cssText = "background-color: darkgrey";
             result_ref.innerHTML = "DRAW";
             break;        
     }
