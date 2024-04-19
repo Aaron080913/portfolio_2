@@ -28,11 +28,7 @@ function checker(input){
     switch(choices_object[input][computer_choice]){
         case 'win':
             result_ref.style.cssText = "background-color: darkgreen";
-<<<<<<< HEAD
                         result_ref.innerHTML = "YOU WIN";
-=======
-            result_ref.innerHTML = "YOU WIN";
->>>>>>> refs/remotes/origin/main
             user_score++;
             break;
         case 'lose':
